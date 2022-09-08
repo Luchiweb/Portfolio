@@ -80,7 +80,7 @@ h6 {
   margin-bottom: 150px;
 }
 .button {
-  color: #3730a3;
+  /* color: #3730a3; */
   border: 1px solid #3730a3;
   border-radius: 6px;
   padding: 12px 32px;
@@ -101,7 +101,8 @@ h6 {
 }
 h1 {
   font-weight: 700;
-  font-size: 72px;
+  /* font-size: 72px; */
+  font-size: calc(38px + 34 * (100vw / 1280));
 }
 h2 {
   font-weight: 600;
@@ -109,6 +110,7 @@ h2 {
   text-align: center;
   padding: 0 70px;
   margin-bottom: 150px;
+  font-size: calc(30px + 18 * (100vw / 1280));
 }
 h2 span {
   color: #3730a3;
@@ -154,7 +156,8 @@ h2 span {
   margin-bottom: 20px;
 }
 .who__name {
-  font-size: 20px;
+  font-size: calc(16px + 4 * (100vw / 1280));
+  /* font-size: 20px; */
   line-height: 28px;
   color: #4338ca;
   position: relative;
@@ -167,7 +170,8 @@ h2 span {
   padding-right: 15px;
 }
 .who__about {
-  font-size: 18px;
+  font-size: calc(14px + 4 * (100vw / 1280));
+  /* font-size: 18px; */
   line-height: 28px;
   color: #6b7280;
   margin-top: 40px;
@@ -197,6 +201,7 @@ h2 span {
   display: grid;
   gap: 70px;
   grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+  margin: 30px 0;
 }
 .item-examle {
   width: 310px;
@@ -239,8 +244,9 @@ h2 span {
   margin: auto 0;
 }
 .trust__title {
+  font-size: calc(16px + 4 * (100vw / 1280));
   font-weight: 300;
-  font-size: 20px;
+  /* font-size: 20px; */
   color: #9ca3af;
   margin-bottom: 20px;
 }
@@ -328,6 +334,7 @@ h2 span {
   margin-top: 40px;
 }
 .benefit-item__content {
+  font-size: calc(15px + 3 * (100vw / 1280));
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
@@ -340,15 +347,19 @@ table {
   border-collapse: collapse;
   width: 100%;
 }
+th,
+td {
+  font-size: calc(10px + 6 * (100vw / 1280));
+}
 th {
   font-weight: 500;
-  font-size: 16px;
+  /* font-size: 16px; */
   text-align: left;
   color: #6b7280;
   padding-bottom: 40px;
 }
 td {
-  font-size: 16px;
+  /* font-size: 16px; */
   line-height: 24px;
   color: #6b7280;
   padding: 40px 0;
@@ -366,15 +377,17 @@ td {
   width: 670px;
 }
 .footer__title {
+  font-size: calc(28px + 20 * (100vw / 1280));
   font-weight: 500;
-  font-size: 48px;
+  /* font-size: 48px; */
   text-align: center;
   color: #374151;
   margin-bottom: 20px;
 }
 .footer__text {
+  font-size: calc(14px + 4 * (100vw / 1280));
   font-weight: 400;
-  font-size: 18px;
+  /* font-size: 18px; */
   text-align: center;
   color: #9ca3af;
   margin-bottom: 100px;
