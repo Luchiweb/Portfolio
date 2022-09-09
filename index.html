@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/slider.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,10 +20,20 @@
       <div class="header__container container">
         <a href="#"><img src="./img/logo.svg" alt="logo" /></a>
         <nav class="header__navbar navbar">
+          <div class="header__icon">
+            <img src="./img/burger.svg" alt="" class="icon__burger" />
+            <img src="./img/cross.svg" alt="" class="icon__cross" />
+          </div>
           <ul class="navbar__menu">
-            <li class="navbar__item"><a class="navbar__link">Services</a></li>
-            <li class="navbar__item"><a class="navbar__link">Works</a></li>
-            <li class="navbar__item"><a class="navbar__link">Blog</a></li>
+            <li class="navbar__item">
+              <a href="/index.html" class="navbar__link">Services</a>
+            </li>
+            <li class="navbar__item">
+              <a href="/index.html" class="navbar__link">Works</a>
+            </li>
+            <li class="navbar__item">
+              <a href="/index.html" class="navbar__link">Blog</a>
+            </li>
             <li class="navbar__item">
               <a class="navbar__button button">Hire me</a>
             </li>
@@ -51,14 +62,7 @@
             <p class="who__fn">I am currently open for part-time work.</p>
           </div>
           <div class="who__image">
-            <img
-              src="./img/main-photo.png"
-              alt=""
-              width="478px"
-              ;
-              height="525px"
-              ;
-            />
+            <img src="./img/main-photo.png" alt="" width="478" height="525" />
           </div>
         </div>
       </section>
@@ -68,38 +72,119 @@
             From beginning ideas to individual integrity, rich identity from the
             line <span>on the paper to final projects</span>
           </h2>
+          <div class="slider">
+            <div id="contentContainer">
+              <div id="wrapper">
+                <div class="content">
+                  <div class="item-example">
+                    <div class="item-example__title">Web design</div>
+                    <div class="item-example__content">
+                      Provide our customers with optimized user-friendly
+                      experience to increase the efficiency of digital products.
+                    </div>
+                    <a href="#" class="item-example__link">See Works</a>
+                  </div>
+                </div>
+                <div class="content">
+                  <div class="item-example">
+                    <div class="item-example__title">Mobile design</div>
+                    <div class="item-example__content">
+                      Mobile application development is a highlight that
+                      businesses are interested in at the moment and in the
+                      future.
+                    </div>
+                    <a href="#" class="item-example__link">See Works</a>
+                  </div>
+                </div>
+                <div class="content">
+                  <div class="item-example">
+                    <div class="item-example__title">Branding</div>
+                    <div class="item-example__content">
+                      Understanding the business and their target customers, I’m
+                      the bridges to bring the brand closer to their clients.
+                    </div>
+                    <a href="#" class="item-example__link">See Works</a>
+                  </div>
+                </div>
+                <div class="content">
+                  <div class="item-example">
+                    <div class="item-example__title">3D Modeling</div>
+                    <div class="item-example__content">
+                      Help you translate your existing design or concept into
+                      CAD or to work with you to develop the ideal design. 3D
+                      Models great for modern digital art
+                    </div>
+                    <a href="#" class="item-example__link">See Works</a>
+                  </div>
+                </div>
+                <div class="content">
+                  <div class="item-example">
+                    <div class="item-example__title">Photography</div>
+                    <div class="item-example__content">
+                      While stock photography is a great option for sourcing
+                      high-quality photos, it’s important that you choose your
+                      photos thoughtfully.
+                    </div>
+                    <a href="#" class="item-example__link">See Works</a>
+                  </div>
+                </div>
+                <div class="content">
+                  <div class="item-example">
+                    <div class="item-example__title">Video creating</div>
+                    <div class="item-example__content">
+                      Create high-impact social videos with our easy video
+                      maker. Use custom video templates to find the right story
+                      for your business.
+                    </div>
+                    <a href="#" class="item-example__link">See Works</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="navLinks">
+              <ul>
+                <li class="itemLinks" data-pos="0px"></li>
+                <li class="itemLinks" data-pos="-310px"></li>
+                <li class="itemLinks" data-pos="-620px"></li>
+                <li class="itemLinks" data-pos="-930px"></li>
+                <li class="itemLinks" data-pos="-1240px"></li>
+                <li class="itemLinks" data-pos="-1550px"></li>
+              </ul>
+            </div>
+          </div>
+
           <div class="road__exsamples examples">
             <div class="examples__image">
               <img src="./img/image-second.jpg" alt="" />
             </div>
             <div class="examples__items">
               <div class="examples__item item-examle">
-                <div class="item-examle__title">Web design</div>
-                <div class="item-examle__content">
+                <div class="item-example__title">Web design</div>
+                <div class="item-example__content">
                   Provide our customers with optimized user-friendly experience
                   to increase the efficiency of digital products.
                 </div>
                 <a href="#" class="item-example__link">See Works</a>
               </div>
               <div class="examples__item item-examle">
-                <div class="item-examle__title">Mobile design</div>
-                <div class="item-examle__content">
+                <div class="item-example__title">Mobile design</div>
+                <div class="item-example__content">
                   Mobile application development is a highlight that businesses
                   are interested in at the moment and in the future.
                 </div>
                 <a href="#" class="item-example__link">See Works</a>
               </div>
               <div class="examples__item item-examle">
-                <div class="item-examle__title">Branding</div>
-                <div class="item-examle__content">
+                <div class="item-example__title">Branding</div>
+                <div class="item-example__content">
                   Understanding the business and their target customers, I’m the
                   bridges to bring the brand closer to their clients.
                 </div>
                 <a href="#" class="item-example__link">See Works</a>
               </div>
               <div class="examples__item item-examle">
-                <div class="item-examle__title">3D Modeling</div>
-                <div class="item-examle__content">
+                <div class="item-example__title">3D Modeling</div>
+                <div class="item-example__content">
                   Help you translate your existing design or concept into CAD or
                   to work with you to develop the ideal design. 3D Models great
                   for modern digital art
@@ -107,8 +192,8 @@
                 <a href="#" class="item-example__link">See Works</a>
               </div>
               <div class="examples__item item-examle">
-                <div class="item-examle__title">Photography</div>
-                <div class="item-examle__content">
+                <div class="item-example__title">Photography</div>
+                <div class="item-example__content">
                   While stock photography is a great option for sourcing
                   high-quality photos, it’s important that you choose your
                   photos thoughtfully.
@@ -116,8 +201,8 @@
                 <a href="#" class="item-example__link">See Works</a>
               </div>
               <div class="examples__item item-examle">
-                <div class="item-examle__title">Video creating</div>
-                <div class="item-examle__content">
+                <div class="item-example__title">Video creating</div>
+                <div class="item-example__content">
                   Create high-impact social videos with our easy video maker.
                   Use custom video templates to find the right story for your
                   business.
@@ -192,22 +277,6 @@
                 </div>
               </a>
             </div>
-
-            <!-- <img src="./img/image-2.jpg" alt="" class="photo-2" />
-            <div class="galery__button button-galery">
-              <div class="button-galery__title">Project title here</div>
-              <div class="button-galery__name">Photograph</div>
-            </div>
-            <img src="./img/image-3.jpg" alt="" class="photo-3" />
-            <div class="galery__button button-galery">
-              <div class="button-galery__title">Project title here</div>
-              <div class="button-galery__name">Photograph</div>
-            </div>
-            <img src="./img/image-4.jpg" alt="" class="photo-4" />
-            <div class="galery__button button-galery">
-              <div class="button-galery__title">Project title here</div>
-              <div class="button-galery__name">Photograph</div>
-            </div> -->
           </div>
         </div>
       </section>
@@ -468,5 +537,7 @@
         </div>
       </div>
     </footer>
+    <script src="./js/slider.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
