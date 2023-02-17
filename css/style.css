@@ -119,19 +119,11 @@ h2 span {
   color: #3730a3;
 }
 /*-------------------------*/
-/* .header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 10;
-  background-color: #fff;
-} */
 .header__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 190px;
+  margin-bottom: 130px;
   margin-top: 3rem;
 }
 .header__icon {
@@ -187,7 +179,6 @@ h2 span {
 }
 .who__about {
   font-size: calc(14px + 4 * (100vw / 1280));
-  /* font-size: 18px; */
   line-height: 28px;
   color: #6b7280;
   margin-top: 40px;
@@ -280,7 +271,6 @@ h2 span {
   width: 100%;
 }
 .trust__title {
-  /* font-size: calc(16px + 4 * (100vw / 1280)); */
   font-weight: 300;
   font-size: 20px;
   color: #9ca3af;
@@ -403,13 +393,11 @@ td {
 }
 th {
   font-weight: 500;
-  /* font-size: 16px; */
   text-align: left;
   color: #6b7280;
   padding-bottom: 40px;
 }
 td {
-  /* font-size: 16px; */
   line-height: 24px;
   color: #6b7280;
   padding: 40px 0;
@@ -423,13 +411,11 @@ td {
 }
 .footer__content {
   margin: auto;
-  /* width: 670px; */
   padding: 10% 0;
 }
 .footer__title {
   font-size: calc(28px + 20 * (100vw / 1280));
   font-weight: 500;
-  /* font-size: 48px; */
   text-align: center;
   color: #374151;
   margin-bottom: 20px;
@@ -437,7 +423,6 @@ td {
 .footer__text {
   font-size: calc(14px + 4 * (100vw / 1280));
   font-weight: 400;
-  /* font-size: 18px; */
   text-align: center;
   color: #9ca3af;
   margin-bottom: 10%;
